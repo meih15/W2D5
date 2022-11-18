@@ -48,7 +48,7 @@ ol > li#one {
 }
 
 input[type='radio']{
-    -webkit-appearance: none;
+    appearance: none;
     width: 27px;
     height: 27px;
     background-image: url("./stars.png");
