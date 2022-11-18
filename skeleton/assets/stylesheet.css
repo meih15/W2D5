@@ -1,0 +1,52 @@
+body {
+    font-family:  "Arial, sans-serif";
+}
+
+h1 {
+    font-size: 38px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+ul.ingredients-list {
+    list-style: square;
+}
+
+header > img {
+    width: 100px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: red;
+}
+
+body {
+    background-color: pink
+}
+
+#reviews input {
+    cursor: pointer;
+    outline: none;
+}
+
+
+#review-form:last-child:hover {
+    background-color: gold;
+}
+
+ol > li#one {
+    background-color: gray;
+}
+
+.user_review + div{ 
+    border-top: 1px;
+    border-top-style: solid;
+    border-top-color: black;
+}
+
+
+
+
