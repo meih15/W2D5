@@ -47,6 +47,18 @@ ol > li#one {
     border-top-color: black;
 }
 
+input[type='radio']{
+    -webkit-appearance: none;
+    width: 27px;
+    height: 27px;
+    background-image: url("./stars.png");
+    vertical-align: bottom;
+}
 
+input[type='radio']:hover{
+    background-position: 30px 60px;
+}
 
-
+input[type='radio']:checked{
+    background-position: 30px 30px;
+}
